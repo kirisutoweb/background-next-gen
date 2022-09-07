@@ -1,0 +1,519 @@
+body {
+	font-family: "Cabin", sans-serif;
+	color: #fff;
+	margin: 0;
+	background-color: #0f274f;
+}
+
+/* HERO SECTION */
+
+#main-logo a {
+	color: #fff;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+	padding: 0;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px 60px;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #0f274f;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header ul {
+	display: flex;
+	justify-content: end;
+}
+
+header li {
+	margin-left: 25px;
+}
+
+header a {
+	color: #dee0e4;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 12px;
+	border-radius: 8px;
+}
+
+header nav a:hover {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #dee0e4;
+	line-height: 5px;
+	border-radius: 0px;
+}
+
+#hero {
+	height: 80vh;
+	background-image: url("/images/website_building_modern.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: #0f274f;
+	opacity: 0.97;
+}
+
+#hero-content {
+	width: 700px;
+	padding: 50px 0;
+	margin: auto 17%;
+	position: relative;
+	top: 140px;
+	background-color: transparent;
+}
+
+#hero-content h1 {
+	font-size: 4rem;
+	padding: 0;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+#hero-content h6 {
+	font-size: 1rem;
+	padding: 0;
+	margin: 0;
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+}
+
+#hero-content p {
+	font-size: 1.2rem;
+	padding: 0;
+	margin: 0 0 50px 0;
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+	line-height: 1.75;
+}
+
+#hero-content a {
+	text-decoration: none;
+	background-color: #dee0e4;
+	color: #0f274f;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 12px 26px;
+	border-radius: 5px;
+}
+
+#hero-content a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+.shape-divider-hero {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.shape-divider-hero svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 100px;
+}
+
+.shape-divider-hero .shape-fill {
+	fill: #e0e0e000;
+}
+
+/* SECTION MY SKILLS ------------------------------------------------------------------- */
+
+#my-skills {
+	padding: 100px 32px;
+	background-color: #0f274f;
+}
+
+#my-skills h2 {
+	font-size: 3.5rem;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#skills-set {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5rem;
+	justify-items: center;
+	align-items: center;
+	margin: auto;
+	width: 60%;
+}
+.icon-skill i {
+	font-size: 64px;
+	color: #d6d6d6;
+}
+
+/* SECTION ABOUT ME ---------------------------------------------------------------------- */
+
+.shape-divider-about-me {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.shape-divider-about-me svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 100px;
+}
+
+.shape-divider-about-me .shape-fill {
+	fill: #0f274f;
+}
+
+#about-me-section {
+	position: relative;
+	background-color: #0f264ff8;
+	padding: 100px 32px;
+	margin: 0 auto;
+}
+
+#about-me-section ul {
+	display: flex;
+	list-style: none;
+	width: 70%;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#profil-img {
+	width: 200px;
+	height: 200px;
+	background-color: #0f274f;
+	padding: 16px;
+}
+
+#profil-img li img {
+	width: 200px;
+	object-fit: cover;
+}
+
+#my-bio {
+	width: 50%;
+}
+
+#my-bio h2 {
+	font-size: 3.5rem;
+}
+
+#my-bio p {
+	font-size: 1.2rem;
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+	line-height: 1.75;
+}
+
+/* SECTION PORTFOLIO-------------------------------------------------------- */
+
+#portfolio-section {
+	background-color: #0f274f;
+	width: 75%;
+	margin: 3rem auto;
+	padding: 3rem 0;
+}
+
+#portfolio-section h2 {
+	font-size: 3.5rem;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.projects-grid {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1.5rem;
+}
+
+#portfolio-section li {
+	overflow: hidden;
+	border-radius: 8px;
+}
+.project-item {
+	padding: 1rem;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #182f56;
+	box-sizing: border-box;
+	height: 100%;
+	box-shadow: 0 10px 30px -15px rgba(2, 12, 26, 0.8);
+
+	position: relative;
+}
+
+.project-item p {
+	line-height: 1.75;
+	font-size: 1.07rem;
+}
+.tech-used {
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	padding: 0;
+	margin: 20px 0px 20px 0px;
+	list-style: none;
+}
+
+.tech-used li {
+	font-size: 0.75rem;
+	margin-top: 10px;
+	margin-right: 10px;
+	line-height: 1.75;
+	padding: 8px;
+	justify-content: space-evenly;
+	background-color: #142138;
+}
+
+.project-item ul li {
+	border-radius: 4px;
+}
+#portfolio-section img {
+	height: auto;
+	width: 100%;
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#portfolio-section .project-item h3 {
+	font-size: 1.5rem;
+	text-align: left;
+	color: #dee0e4;
+	margin: 0;
+}
+
+.project-item p {
+	font-size: 0.9rem;
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+}
+.btn {
+	color: #fff;
+	text-decoration: none;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+}
+
+/* SECTION HIRE ME-------------------------------------------------------- */
+#hire-me {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 75%;
+	margin: 3rem auto;
+	padding: 3rem 0;
+}
+
+#cta-title {
+	text-align: center;
+}
+
+#cta-title,
+#contact-form {
+	margin: 1rem auto;
+}
+
+form {
+	width: 32rem;
+	padding: 1rem;
+	border-radius: 8px;
+	background-color: #182f56;
+}
+
+form section {
+	margin-bottom: 0.5rem;
+}
+label {
+	color: #dee0e4;
+	display: block;
+	margin-bottom: 1rem;
+}
+input,
+textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font: inherit;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #dee0e4;
+	border-radius: 4px;
+	color: rgb(75, 75, 75);
+}
+
+input:focus,
+textarea:focus {
+	background-color: #e8effc;
+}
+form ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.form-inline-styles {
+	display: flex;
+}
+
+.form-inline-styles input {
+	width: auto;
+	margin-right: 1rem;
+}
+
+textarea {
+	resize: none;
+}
+button {
+	color: white;
+
+	font: inherit;
+	padding: 0.5rem 1.5rem;
+	border: 1px solid #89aff0;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 16px 4px;
+}
+.btn-reset {
+	background-color: transparent;
+}
+
+.btn-submit {
+	background-color: #071733;
+}
+.btn-reset:hover {
+	background-color: #3f5d91;
+	border-color: #3f5d91;
+}
+.btn-submit:hover {
+	background-color: #020b1a;
+	border-color: #020b1a;
+}
+
+#form-actions {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* --------------------   FOOTER --------------------------------------------------------------------------------*/
+#footer-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5rem 0;
+	background-color: #142138;
+	list-style: none;
+}
+
+#footer-container li {
+	margin-right: 20px;
+}
+
+#footer-container a {
+	text-decoration: none;
+	color: #d6d6d6;
+}
+/* --------------------   MOBILE STYLES --------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+	header nav {
+		display: none;
+	}
+
+	/* MOBILE HERO SECTION ---------------------------------------------------------------- */
+	#hero-content {
+		width: 350px;
+		padding: 50px 0px;
+		margin: auto 5%;
+	}
+	#hero-content h1 {
+		font-size: 2rem;
+	}
+
+	/* MOBILE SECTION MY SKILLS ------------------------------------------------------------------- */
+	#my-skills {
+		padding: 80px 20px;
+	}
+
+	#my-skills h2 {
+		font-size: 2rem;
+		text-align: center;
+		margin-bottom: 100px;
+	}
+
+	#skills-set {
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+
+		width: 100%;
+	}
+	.icon-skill i {
+		font-size: 60px;
+		color: #d6d6d6;
+	}
+
+	/* MOBILE SECTION ABOUT ME ---------------------------------------------------------------------- */
+	#about-me-section ul {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	#my-bio {
+		width: 100%;
+	}
+	#my-bio h2 {
+		font-size: 2.5rem;
+		text-align: center;
+	}
+	#my-bio p {
+		font-size: 1rem;
+	}
+
+	/* MOBILE SECTION PORTFOLIO ---------------------------------------------------------------------- */
+
+	#portfolio-section h2 {
+		font-size: 2.5rem;
+	}
+	.projects-grid {
+		grid-template-columns: 100%;
+	}
+	.project-item p {
+		font-size: 0.9rem;
+	}
+	.tech-used li {
+		font-size: 0.6rem;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+}
